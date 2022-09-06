@@ -10,3 +10,8 @@ eu aprender
 
 Por favor, fique a vontade, estou compartilhando para que você entenda
 como está o meu progresso! c:
+
+Atualização 06/09: inicio a estudos com funções, todos os exercicios do 1 ao 8
+são antes dessa atualização. 
+versões anteriores através do commit apenas mostrará os exercícios, as aulas
+foram implementadas após o commit "funções"
