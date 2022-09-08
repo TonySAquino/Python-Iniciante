@@ -1,18 +1,17 @@
-#Esse arquivo servirá apenas para eu testar códigos, ignorem isso C=
-from time import sleep
+#ignorar drafts, apenas para rascunho
 
-def salve(a, b):
-    c = a+b
-    print(c)
+reprovado = 0
+aprovado = 0
+n = 0
 
-resposta = float(input('Digite 1 para sim, 2 para não: '))
-if resposta == 1:
-    sleep(1)
-    a = float(input('Informe o primeiro numero: '))
-    sleep(1)
-    b = float(input('Informe o segundo numero: '))
-    salve(a, b)
 
-else:
-    sleep(1)
-    print('Obrigado por participar do código')
+while n == 0:
+    nota = int(input('Digite a nota do aluno: '))
+    if nota <6:
+        reprovado = reprovado + 1
+    else:
+        aprovado = aprovado + 1
+    n = int(input('Deseja continuar? se sim, digite 0, se não, digite qualquer outro numero: '))
+
+print(f'{aprovado} alunos foram aprovados')
+print(f'{reprovado} alunos foram reprovados')
